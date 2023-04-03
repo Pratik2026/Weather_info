@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Weather App</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="Home.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="howtouse.txt">HOW TO USE</a></li>
+        </ul>
+        <div class="search">
+          <input type="text" placeholder="Enter City" id="cityname"/>
+          <button id="btn">search</button>
+        </div>
+      </nav>
+    </header>
+    <main>
+         <div class="row1">
+            <div class="main-heading">
+            <h1>Weather of <span id="addcity"></span></h1>
+         </div>
+        <div class="container">
+              
+              <div class="col">
+                <div class="heading"><h2>Temperature info</h2></div>
+                <div class="content">
+                    <div >Temperature is <span id="temp"></span><Sup>o</Sup>C</div>
+                    <div >Min temp : <span id="min_temp"></span><Sup>o</Sup>C</div>
+                    <div >Max temp : <span id="max_temp"></span><Sup>o</Sup>C</div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="heading"><h2>Humidity info</h2></div>
+                <div class="content">
+                    <div >Cloud PCT is <span id="cloud_pct"></span>%</div>
+                    <div >Feels like <span id="feels_like"></span><Sup>o</Sup>C</div>
+                    <div >Humidity is  <span id="humidity"></span>%</div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="heading"><h2>Wind info</h2></div>
+                <div class="content">
+                    <div >Wind speed is <span id="wind_speed"></span> Km/hr</div>
+                    <div >Wind degree is  <span id="wind_degrees"></span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </main>
+    <footer>
+        <a href="">Terms of Use</a> |<p>copyright &copy My Weather App</p>| <a href="">Privacy Policy</a>
+     </footer>
+    <script src="app.js"></script>
+  </body>
+</html>

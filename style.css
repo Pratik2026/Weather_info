@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald';
+}
+header{
+    background-color: #1f1f1f;
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 1.5vw;
+}
+nav{
+    display: flex;
+    height: 7vh;
+    justify-content: space-between;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
+nav ul li a:hover{
+   color: white;
+   font-weight: bold;
+}
+.search{
+    display: flex;
+    align-items: center;
+    padding: 0vh 2vw;
+}
+.search input{
+    width: 18vw;
+    height: 3vh;
+    outline: none;
+    padding-left: 1vh;
+    margin-right: 1vw;
+}
+.search button{
+    margin-right: 1vh;
+    border-radius: 0.8vh;
+    height: 3vh;
+    width: 3vw;
+    cursor: pointer;
+    color: blue;
+    border: 1px solid blue;
+    text-align: -webkit-center;
+    padding-bottom: 2px;
+}
+button:hover{
+    background-color: lightgreen;
+    color: white;
+    transform: scale(1.1);
+}
+.container{
+    display: flex;
+    height: 30vh;
+    justify-content: center;
+}
+.col{
+    width: 25%;
+    border: 2px solid #cecccc;
+    text-align: center;
+    margin-right: 1vw;
+}
+.row1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.main-heading{
+    display: flex;
+    justify-content: center;
+    margin-top: 5.8vh;
+    margin-bottom: 5vh;
+    color: rgb(240, 85, 20);
+}
+
+
+h1{
+    transition: transform 0.5s;
+    border: 2px solid #1f1f1f;
+    padding: 0px 1vw;
+    background-color: #e2e6dd;
+    border-radius: 2vh;
+}
+h1:hover{
+    transform: scale(1.1);
+}
+.heading{
+    padding: 1.3% 0%;
+    border-bottom: 2px solid lightgrey;
+    background-color: #1f1f1f;
+    color: white;
+}
+
+.content{
+    display: flex;
+    height: 79%;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+footer{
+    display: flex;
+    background-color: #1f1f1f;
+    color: white;
+    height: 8vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: 38vh;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    padding: 0 1vw;
+}
+footer p{
+    padding: 0 1vw;
+}
